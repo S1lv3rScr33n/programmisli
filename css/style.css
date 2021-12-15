@@ -1,0 +1,153 @@
+/* Global */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1286px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Header */
+
+.header {
+    margin-bottom: 112px;
+}
+
+
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_menu {
+    position: relative;
+    right: -5%;
+    font-size: 16px;
+    line-height: 25px;
+    color: #180330;
+}
+
+.nav_menu > ul:first-child {
+    padding: 0;
+}
+
+.menu_list {
+    display: flex;
+    list-style: none;
+    margin: 12px 0;
+}
+
+.menu_list > .list-item:first-child {
+    margin: 0;
+}
+
+.list-item {
+    margin-left: 70px;
+}
+
+.item-link:hover {
+    text-decoration: underline;
+}
+
+.user_nav {
+    font-size: 16px;
+    line-height: 25px;
+    color: #180330;
+}
+
+.user_btn > .btn:last-child {
+    margin-left: 8px;
+}
+.btn {
+    border: 1px solid #550088;
+    border-radius: 4px;
+    padding: 8px 18px;
+}
+
+.btn-primary {
+    font-size: 16px;
+    border: inherit;
+    color: #fff;
+    background: linear-gradient(#550088, #7800BF, #892FFC);
+    border-radius: 0px 4px 4px 0px;
+    padding: 12px 23px;
+}
+
+.btn-transparent {
+    border: transparent;
+}
+
+.present {
+
+}
+
+.present_wrap {
+    display: flex;
+}
+
+.present_block {
+    position: relative;
+    left: 25%;
+    max-width: 613px;
+}
+.present_block > .title {
+    font-size: 96px;
+    line-height: 110px;
+    text-align: center;
+    color: #180330;
+    margin-bottom: 35px;
+}
+
+.present_block > .subtitle {
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+    color: #180330;
+    margin-bottom: 40px;
+}
+
+.color-text {
+    color: #550088;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+}
+
+.email > input {
+    font-size: 14px;
+}
+
+.form_email {
+    border: 1px solid #180330;
+    border-radius: 4px 0 0 4px;
+    padding-left: 20px;
+    padding-right: 90px;
+}
+
+.present_block_image > .present_image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
