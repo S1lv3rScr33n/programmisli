@@ -237,13 +237,19 @@ a {
 /* Opportunities */
 
 .opportunities_wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 
 .opportunities_block {
     max-width: 555px;
+    position: relative;
+    left: 29%;
+}
+
+.opportunities_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .opportunities_title {
@@ -253,10 +259,112 @@ a {
     color: #180330;
 }
 
-.opportunities_table {
+.table-styles {
+    font-size: 16px;
+    color: #180330;
+    line-height: 25px;
+    border-spacing: 33px;
+    /*align-items: center;*/
+}
+
+tbody > td {
+    max-width: 268px;
+    color: #180330;
+}
+
+table {
+    /*position: relative;*/
+    /*left: 25%;*/
+}
+
+.table_row_names {
+    max-width: 202px;
+}
+
+.table_items {
+    text-align: center;
+    color: #180330;
+}
+
+.item-color {
+    color: #550088;
+}
+
+tfoot {
 
 }
 
-.opportunities_table_logos {
+.tfoot_text {
+    color: #180330;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.tfoot_link {
+    color: #550088;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.opportunities-features_link {
+    color: #550088;
+    text-align: center;
+    margin-top: 56px;
+}
+
+/* Reviews */
+
+.reviews_wrapper {
+}
+
+.reviews_head {
+
+}
+
+.reviews_title {
+    font-size: 56px;
+    line-height: 64px;
+    color: #180330;
+    text-align: center;
+}
+
+.reviews_body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg-red {
+    background-color: #FFDDDD;
+}
+
+.bg-yellow {
+    background-color: #FFFADD;
+}
+
+.bg-blue {
+    background-color: #BFEDE5;
+}
+.reviews_card {
+    max-width: 428px;
+}
+
+.reviews_card:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.reviews_img {
+    margin-left: 35px;
+}
+
+.reviews_dec {
+
+}
+
+.reviews_text {
+
+}
+
+.reviews_author {
 
 }
